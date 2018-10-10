@@ -48,7 +48,7 @@ public:
    * @param: bool debug, if true, all logging of Ogre is send to std::out, if false no logging
    * occurs. Since the logging pollutes the test output, it defaults to false
    */
-  void setUpOgreTestEnvironment(bool debug = false)
+  void setUpOgreTestEnvironment(bool debug = true)
   {
     if (!debug) {
       const std::string & name = "";
